@@ -1,0 +1,150 @@
+html{
+  background-color: #F5F5F5;
+}
+ul {
+  list-style-type: none;
+  margin:-10px;
+  padding:0;
+  overflow:hidden;
+  display: block;
+  background-color: #333;
+  min-width: 100%;
+  z-index: 22;
+  position:fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#icon{
+  margin-left:49px;
+  background-color: orange;
+  height: 46px
+}
+
+#spetial{
+  width: 50%;
+}
+.search {
+  margin-top:9px;
+  margin-left: 30px;
+}
+.input{
+  background-color: white;
+  height: 25px;
+  width: 80%;
+  border-radius: 5px;
+}
+button {
+  background-color: white;
+  width: 35px;
+  height: 30px;
+  color: black;
+  border: 2px solid geay;
+}
+.content{
+  width: 94%
+  height:auto;
+  height: auto;
+  min-height: 1800px;
+  display:block;
+  margin-top: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: white;
+}
+.image1{
+  border-bottom:3px solid gray;
+  width: 100%;
+  max-height: 350px;
+}
+.main-text{
+  font-size: 22px;
+  font-family: Arial;
+  color: orange;
+  margin:35px 35px;
+}
+
+.column {
+  float: left;
+  width: 23%;
+  padding: 0 8px;
+
+}
+
+.row {
+  margin-left: 4% ;
+  margin-right: 2%;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 18px;
+
+}
+.pagination {
+  display: inline-block;
+  margin:20px 35%;
+
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: orange;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+@media only screen and (max-width: 550px) {
+
+  /*
+  */
+  .search {
+display: none;
+  }
+  .input{
+  display:none;
+  }
+  #ic{
+    width: 10px;
+  }
+
+
+}
+@media only screen and (max-width: 810px) {
+  #spetial{
+    width: 30%;
+  }
+  .input{
+    width: 60%;
+  }
+
+}

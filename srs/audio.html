@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="..\css\index.css">
+      <link rel="stylesheet" href="..\css\info.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Audio</title>
+
+
+    <style>
+      html{
+        margin-top:0px;
+      }
+      audio {
+          width: 300px;
+          height: 50px;
+
+            }
+      .audio{
+              height: 500px;
+              text-align:center;
+              padding-top:6%;
+
+      }
+      audio::-webkit-media-controls-panel {
+      background-color: orange;
+      
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+        <ul>
+              <li  id='icon'><a class="active" href="..\index.html">  <i class='fas fa-headphones-alt' style='font-size:22px;color:block'></i></a></li>
+              <li><a  class="active" href="..\index.html">Home</a></li>
+              <li><a  href="#news">Library</a></li>
+              <li><a  href="#contact">Artists</a></li>
+              <li><a href="#">profile</a></li>
+              <li id="spetial">
+                  <form  class="search" action="#">
+                      <input class="form-control input" type="text" placeholder="Search" aria-label="Search">
+                      <button class="hidden"  type="submit">  <i id="ic" class="fa fa-search"> </i></button>
+                  </form>
+              </li>
+         </ul>
+    </div>
+    <div class="audio">
+      <img src="..\download.jpg" alt="">
+    <div >
+      <audio controls>
+
+      <source src="112.mp3" type="audio/mpeg">
+
+    </audio>
+    </div>
+    </div>
+  </body>
+</html>
